@@ -1,0 +1,21 @@
+.tituloSecundario{
+    margin-left: 5rem ;
+    text-decoration: underline;
+    color: red;
+    text-transform: uppercase;
+}
+.ContenidoPrincipal{
+    margin-top:2.5rem;
+}
+.imgLogo-verde{
+    background-color: green;
+}
+.imgLogo-amarillo{
+    background-color: yellow;
+}
+.imgLogo-naranja{
+    background-color: orange;
+}
+.imgLogo-aqua{
+    background-color: aqua;
+}
