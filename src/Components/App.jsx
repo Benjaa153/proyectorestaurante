@@ -15,11 +15,12 @@ function App() {
   const handleClickDecrementar = () => {
     if (incrementar > 0) setIncrementar(incrementar - 1);
   };
-
+  
   const handleClickReiniciar = () => {
     if (incrementar > 0) setIncrementar(0);
   };
 
+    const nombreape = "BENJA"
   return (
     <div>
       {incrementar >= 5 ? (
@@ -35,7 +36,7 @@ function App() {
       <h1>{incrementar}</h1>
 
       <ContenidoPrincipal></ContenidoPrincipal>
-      <Footer></Footer>
+      <Footer nombreape={nombreape} ></Footer>
     </div>
   );
 }
