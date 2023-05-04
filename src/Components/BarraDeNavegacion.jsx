@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Styles/barra.css'
 
-const BarraDeNavegacion = () => {
+const BarraDeNavegacion = (props) => {
   return (
     <nav className="navbar navbar-expand-custom navbar-mainbg">
-        <a className="navbar-brand navbar-logo" href="#">Benjamin</a>
+        <a className="navbar-brand navbar-logo" href="#">{props.goat.name}</a>
         <button className="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i className="fas fa-bars text-white"></i>
         </button>
