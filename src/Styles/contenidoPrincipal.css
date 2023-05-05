@@ -7,15 +7,26 @@
 .ContenidoPrincipal{
     margin-top:2.5rem;
 }
-.imgLogo-verde{
-    background-color: green;
+
+.imgLogo-rojo
+{
+    background-color: red;
 }
-.imgLogo-amarillo{
-    background-color: yellow;
+
+
+.imgLogo-verde
+{
+    background-color: rgb(18, 214, 71);
 }
-.imgLogo-naranja{
-    background-color: orange;
+
+
+.imgLogo-naranja
+{
+    background-color: orange
 }
-.imgLogo-aqua{
-    background-color: aqua;
+
+
+.imgLogo-rosa
+{
+    background-color: pink
 }

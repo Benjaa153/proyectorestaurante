@@ -1,10 +1,10 @@
-import Header from './Header';
-import Footer from './Footer';
-import ContenidoPrincipal from './ContenidoPrincipal';
-import { useState } from 'react';
+import Header from "./Header";
+import Footer from "./Footer";
+import ContenidoPrincipal from "./ContenidoPrincipal";
+import { useState } from "react";
 
 function App() {
-  const [nombre, setNombre] = useState('');
+  const [nombre, setNombre] = useState("");
 
   const [incrementar, setIncrementar] = useState(0);
 
@@ -15,28 +15,29 @@ function App() {
   const handleClickDecrementar = () => {
     if (incrementar > 0) setIncrementar(incrementar - 1);
   };
-  
+
   const handleClickReiniciar = () => {
     if (incrementar > 0) setIncrementar(0);
   };
 
-    const nombreape = "BENJA"
+  const nombreape = "BENJA";
   return (
     <div>
-      {incrementar >= 5 ? (
+      {/* {incrementar >= 5 ? (
         <Header></Header>
       ) : (
         <h1>todavia no esta el header</h1>
-      )}
-
+      )} */}
+      {/* 
       <button onClick={handleClickIncrementar}>Incrementar</button>
       <button onClick={handleClickDecrementar}>Decrementar</button>
-      <button onClick={handleClickReiniciar}>Reiniciar</button>
+      <button onClick={handleClickReiniciar}>Reiniciar</button> */}
 
-      <h1>{incrementar}</h1>
+      {/* <h1>{incrementar}</h1> */}
 
+      <Header></Header>
       <ContenidoPrincipal></ContenidoPrincipal>
-      <Footer nombreape={nombreape} ></Footer>
+      <Footer></Footer>
     </div>
   );
 }
